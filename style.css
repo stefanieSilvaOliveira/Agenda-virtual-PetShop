@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+
+
+}
+
+body {
+    background:linear-gradient(90deg, #BEC4E1 100%,#D1D5E8 0%,#95B8D1 35%);
+    height: 100vh;
+
+}
+
+main {
+    width: 500px;
+    height: 750px;
+    background-image: url(./fundo-main-gatinho-espiao.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    margin: 0 auto 40px;
+    display: block;
+    margin-top: 130px;
+    padding: 44px 24px 70px;
+
+}
+
+div.main-container {
+    height: 15em;
+    width: 50px;
+    position: relative;
+}
+
+.main-container {
+
+    margin: 0;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+
+button,input {
+    margin: 0 auto;
+    display: block;
+}
+
+.input-main  {
+    margin: 0 auto;
+    display: block;
+    margin-top: 360px;
+    width: 350px;
+    height: 60px;
+    border: none;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    color: #000;
+    background: rgba(255, 255, 255, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(13.5px);
+    -webkit-backdrop-filter: blur(13.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    outline: none;
+
+}
+
+div.paragrafo-main{
+    width: 350px;
+    height: 60px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(13.5px);
+    -webkit-backdrop-filter: blur(13.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    outline: none;
+    
+   
+}
+
+p{
+    margin-top: -1px;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    color:#000
+   
+}
+button {
+    margin-top: 30px;
+    width: 259px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    background-image: -webkit-linear-gradient(#F2C5FF, #801155);
+    font-weight: 500;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button-reset{
+    margin-top: 20px;
+    width: 259px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    background-image: -webkit-linear-gradient(#F2C5FF, #801155);
+    font-weight: 500;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+button:hover {
+    opacity: 0.5;
+}
+
+@font-face {
+    font-family: 'Pet';
+    src: url("./font/Typo_Round_Light_Demo.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'Pet';
+    font-weight: 300 bolder;
+    font-size: 40px;
+    color: black;
+
+
+}
+ 
+@font-face {
+    font-family: 'Nome';
+    src: url("./font/Comfortaa-Light.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+
+    }
+
+p{
+    font-family: 'Nome';
+    font-weight: bolder;
+    font-size: 20px;
+    color: black;  
+}
+
+input, .input-main{
+    font-family: 'Nome';
+    font-weight: bolder;
+    font-size: 20px;
+    color: black;  
+}
